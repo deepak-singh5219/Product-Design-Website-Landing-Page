@@ -18,6 +18,10 @@ body{
     margin-right:100px;
 }
 
+.navbar .hamburger{
+    display:none;
+    color:white;
+}
 .navbar .right .list{
     list-style: none;
     display: flex;
@@ -43,7 +47,7 @@ body{
 }
 
 .header .left .model{
-    width:750px;
+    width:70%;
 
 }
 
@@ -362,4 +366,377 @@ body{
     align-items: center;
     justify-content: space-between;
     width:200px;
+}
+
+@media only screen and (max-width:640px){
+
+    .navbar{
+        justify-content: space-around;
+        margin-left:0;
+        margin-right:0;
+
+    }
+
+    .navbar .right .list{
+        display:none;
+    }
+
+    .navbar .hamburger{
+        display:block;
+    }
+
+  .logo{
+        width:80px;
+    }
+
+    .header{
+        flex-direction: column;
+        /* margin:70px; */
+    }
+    
+    .header .right .sub-head{
+        font-size: 13px;
+        
+    }
+    
+    .header .right .head{
+        font-size: 40px;
+        
+    }
+    
+    .header .right .details{
+        width:90%;
+        font-size: 12px;
+    }
+
+    .btn{
+        height:40px;
+        width:120px;
+        font-size:12px;
+        font-weight: 400;
+    }
+
+    .overview-section{
+        
+        height: 100%;
+    
+    }
+    .overview-section .upper{
+        flex-direction: column;
+        width:90%;
+    }
+
+    .overview-section .upper .card{
+        margin-top: 20px;
+    }
+
+    .overview-section .bottom{
+        
+        flex-direction: column;
+        height: 100%;
+        
+    }
+
+    .overview-section .bottom .left{
+        margin-bottom:25px;
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .overview-section .bottom .right{
+    
+        grid-template-columns: auto ;
+       
+    }
+
+    .projects-overview .upper{
+
+        justify-content: space-around;
+        width:100%;
+        margin-top:60px;
+        margin-bottom:60px;
+        
+       }
+
+       .projects-overview .upper .left h1{
+        font-size: 20px;
+    }
+
+       .projects-overview .upper .left p{
+        font-size: 8px;
+    }
+
+    .projects-overview .upper .btn{
+        font-size:8px;
+        height:30px;
+        width:80px;
+    }
+
+    .projects-overview .down{
+        grid-template-columns: auto;
+        column-gap:20px;
+        
+        
+    }
+
+    .projects-overview .down .img-card{
+        padding:30px;
+    }
+    
+    .projects-overview .down .img-card .img img{
+        width:300px;
+        height:150px;
+        
+    }
+    
+    .projects-overview .down .img-card .img {
+        width:300px;
+        height:20px;
+    }
+
+    .projects-overview .down .img-card .caption{
+        margin-top:75px;
+        line-height: 35px;
+    }
+       
+    .projects-overview .down .img-card .caption h1{
+        font-size:20px;
+    
+    }
+
+    .projects-overview .down .img-card .card-btn{
+        font-size:15px;
+    
+    }
+
+     .side-arrow{
+        width:10px;
+    }
+
+    .collab{
+       
+        flex-direction: column;
+        
+        height:100%;
+        width:100%;
+        
+        padding:20px;
+    }
+    
+    .collab .left{
+        width:100%;
+    }
+    
+    .collab .left h1{
+        font-size: 30px;
+        
+        margin:20px;
+    }
+    
+    .collab .left p{
+        font-size: 14px;
+        color: #ffffff;
+        margin:20px;
+        width:90%;
+    }
+
+    
+    .footer .upper .list{
+      
+        width:90%;
+        
+    
+    }
+
+    .footer .lower .social{
+      
+        width:35%;
+    }
+
+}
+
+@media only screen and (max-width:1100px) and (min-width:640px){
+
+    .navbar{
+        justify-content: space-around;
+        margin-left:0;
+        margin-right:0;
+
+    }
+
+    .navbar .right .list{
+        display:none;
+    }
+
+    .navbar .hamburger{
+        display:block;
+    }
+
+  .logo{
+        width:80px;
+    }
+
+    .header{
+        flex-direction: column;
+        /* margin:70px; */
+    }
+    
+    .header .right .sub-head{
+        font-size: 13px;
+        
+    }
+    
+    .header .right .head{
+        font-size: 40px;
+        
+    }
+    
+    .header .right .details{
+        width:90%;
+        font-size: 12px;
+    }
+
+    .btn{
+        height:40px;
+        width:120px;
+        font-size:12px;
+        font-weight: 400;
+    }
+
+    .overview-section{
+        
+        height: 100%;
+    
+    }
+    .overview-section .upper{
+        flex-direction: column;
+        width:90%;
+    }
+
+    .overview-section .upper .card{
+        margin-top: 20px;
+    }
+
+    .overview-section .bottom{
+        
+        flex-direction: column;
+        height: 100%;
+        
+    }
+
+    .overview-section .bottom .left{
+        margin-bottom:25px;
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .overview-section .bottom .right{
+    
+        grid-template-columns: auto ;
+       
+    }
+
+    .projects-overview .upper{
+
+        justify-content: space-around;
+        width:100%;
+        margin-top:60px;
+        margin-bottom:60px;
+        
+       }
+
+       .projects-overview .upper .left h1{
+        font-size: 20px;
+    }
+
+       .projects-overview .upper .left p{
+        font-size: 8px;
+    }
+
+    .projects-overview .upper .btn{
+        font-size:8px;
+        height:30px;
+        width:80px;
+    }
+
+    .projects-overview .down{
+        grid-template-columns: auto;
+        column-gap:20px;
+        
+        
+    }
+
+    .projects-overview .down .img-card{
+        padding:30px;
+    }
+    
+    .projects-overview .down .img-card .img img{
+        width:300px;
+        height:150px;
+        
+    }
+    
+    .projects-overview .down .img-card .img {
+        width:300px;
+        height:20px;
+    }
+
+    .projects-overview .down .img-card .caption{
+        margin-top:75px;
+        line-height: 35px;
+    }
+       
+    .projects-overview .down .img-card .caption h1{
+        font-size:20px;
+    
+    }
+
+    .projects-overview .down .img-card .card-btn{
+        font-size:15px;
+    
+    }
+
+     .side-arrow{
+        width:10px;
+    }
+
+    .collab{
+       
+        flex-direction: column;
+        
+        height:100%;
+        width:100%;
+        
+        padding:20px;
+    }
+    
+    .collab .left{
+        width:100%;
+    }
+    
+    .collab .left h1{
+        font-size: 30px;
+        
+        margin:20px;
+    }
+    
+    .collab .left p{
+        font-size: 14px;
+        color: #ffffff;
+        margin:20px;
+        width:90%;
+    }
+
+    
+    .footer .upper .list{
+      
+        width:90%;
+        
+    
+    }
+
+    .footer .lower .social{
+      
+        width:35%;
+    }
 }
