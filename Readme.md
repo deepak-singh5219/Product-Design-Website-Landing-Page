@@ -2,7 +2,7 @@
 
 `Name:` Deepak Singh
 
-This is the User-Interface of Landing page of a product Design website designed fully with `HTML` and `CSS`. The Landing page contains:
+This is the User-Interface of Landing page of a product Design website designed fully with `HTML` and `CSS`. The web page is fully responsive. The Landing page contains:
 
  - Navbar
  - Header
@@ -20,6 +20,7 @@ This is the User-Interface of Landing page of a product Design website designed 
   - Learnt the `Flexbox model` for advanced layout.
   - Learn the `Grid model` for advanced layout.
   - Making the UI beautiful using CSS concepts.
+  - Making responsive web pages using media queries
 
 # Languages Used:
  ### HTML and CSS
